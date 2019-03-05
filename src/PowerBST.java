@@ -1,4 +1,4 @@
-/* Keagan Chasenski
+/** Keagan Chasenski
  * CHSKEA001
  * PracOne - PowerBST Class
  * 06/03/19
@@ -8,7 +8,7 @@ import java.util.* ;
 import java.io.* ;
 
 /* Code for a BST was copied and modified from the lectures
-     slide provided on Vula in the CSC2001F page */
+     slide provided on Vula in the CSC2001F page and code help from G.Davies */
 
 public class PowerBST 
 {
@@ -117,6 +117,8 @@ public class PowerBST
 
     public PowerNode find(String p)
     {
+        counter = 0 ;
+
         if (root == null)
         {
             return null ;
@@ -144,6 +146,7 @@ public class PowerBST
             counter ++ ;
             return (focus.getRightChild() == null) ? null : find (p, focus.rightChild ) ;
         }
+
     }
 
     public int getCounter()

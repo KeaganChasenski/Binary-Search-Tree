@@ -1,11 +1,11 @@
-/* Keagan Chasenski
+/** Keagan Chasenski
  * CHSKEA001
  * PracOne - PowerNode Class
  * 06/03/19
  */
 
 /* Code for a Node class in BST was copied and modified from the lectures
-     slide provided on Vula in the CSC2001F page */
+     slide provided on Vula in the CSC2001F page and code help from G. Davies */
 
 import java.util.*;
 import java.io.*;

@@ -1,4 +1,4 @@
-/* Keagan Chasenski
+/** Keagan Chasenski
  * CHSKEA001
  * PracOne - PowerArray Class
  * 06/03/19
